@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+logs/
+.vscode/
+.idea/
+
+# Build outputs
+frontend/dist/
+backend/dist/
+
+# Lock files (keep pnpm-lock.yaml for reproducible builds)
+# package-lock.json
+# yarn.lock
+
+# OS files
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache/
