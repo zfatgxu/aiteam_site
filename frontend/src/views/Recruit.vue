@@ -97,10 +97,7 @@ const positions = computed(() => [
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #fff 0%, #00d4ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fff;
 }
 
 .page-intro {

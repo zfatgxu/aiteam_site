@@ -27,3 +27,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 .cache/
+
+# Keep production env file for deployment
+!.env.production
+!.env.development
